@@ -1,15 +1,12 @@
-# Project3
-Project: Where Am I
-
-**Need to clone the following package under src:**
-* [Teleop_twist_keyboard](http://wiki.ros.org/teleop_twist_keyboard)
+# Project2
+Project: Go chase it
 
 Steps in this project:
-* Use pgm_map_creator package to generate a map from Gazebo world.
-* Add a launch file for map_server, AMCL and move_base
-* Optional: Tune AMCL parameter 
-
-![Localization result](./project3screenshot.png)
+* Create my_robot package and a world file for gazebo
+* Setup a robot and configure it using URDF. Define the robot in xarco file and add gazebo plugin in gazebo file. Setup a launch file for the urdf robot. The gazebo plugin also have the part of cmd_vel for robot motion.
+* Add sensors(Camera and Lidar) and links to the urdf and modify gazebo plugin. Check sensor output in rviz
+* Define DriveToTarget Sevice and drive_bot to handle the service to publish motor command
+* Define process_images to send drive request when detecting a write ball
 
 ### Directory structure
     src

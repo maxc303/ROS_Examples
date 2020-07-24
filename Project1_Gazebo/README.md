@@ -6,7 +6,7 @@ Simply building a Gazebo Environment
 
 
 ### Directory Structure
-
+    src
     ├── model                          # Model files 
     │   ├── MyBuilding
     │   │   ├── model.config

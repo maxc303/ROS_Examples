@@ -3,6 +3,14 @@ Project:Home Service Robot
 
 **Note: Absolute paths being used in scripts. Need to change the path according to the working environment**
 
+**Need to clone the following packages under src first:**
+ * [Gmapping](http://wiki.ros.org/gmapping)
+ * [Turtlebot_teleop](http://wiki.ros.org/turtlebot_teleop)
+ * [Turtlebot_rivz_launchers](http://wiki.ros.org/turtlebot_rviz_launchers)
+ * [Turtlebot_gazebo](http://wiki.ros.org/turtlebot_gazebo)
+
+
+
 Steps in this project
 * Launch World,Gmapping and teleop to generate a map for the environment (test_slam.sh)
 * Test Navigation packages 
